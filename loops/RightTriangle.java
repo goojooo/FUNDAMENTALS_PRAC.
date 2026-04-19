@@ -6,7 +6,7 @@ public class RightTriangle {
 
             for (int j = 1; j <= 5; j++) {
                 if (j <= i)
-                    System.out.print("* ");
+                    System.out.print(j+" ");
                 else
                     System.out.print(" ");
             }

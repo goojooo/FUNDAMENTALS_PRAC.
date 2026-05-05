@@ -11,7 +11,11 @@ public class RemoveDuplicateFromSortedArray {
                 res++;
             }
 
-            System.out.println(arr[res]);
+            // System.out.println(arr[res]);
+        }
+        for(int i = 0 ; i < res ; i++)
+        {
+            System.out.println(arr[i] + " ");
         }
 
         // int officer = 0;
